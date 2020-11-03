@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>664</x>
+      <y>152</y>
+      <w>176</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+User
+--
+- name: String
+- surname: String
+- birthDate: Date
+- fiscalCode: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>304</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>792</x>
+      <y>304</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>StoreManager
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>744</x>
+      <y>240</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>272</y>
+      <w>296</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0;350.0;10.0;350.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>304</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Store
+--
+- name: String
+- location: String
+- openingHours: Interval</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>320</y>
+      <w>176</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+management
+m1=1
+m2=1...*</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>664</x>
+      <y>360</y>
+      <w>512</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-
+visiting
+m1=1...*
+m2=1...*</panel_attributes>
+    <additional_attributes>600.0;10.0;600.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>632</x>
+      <y>360</y>
+      <w>288</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=-
+booking
+m1=1...*
+m2=1</panel_attributes>
+    <additional_attributes>320.0;240.0;320.0;110.0;10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>304</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>QRCodeController
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>552</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>QRReader
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>344</x>
+      <y>272</y>
+      <w>280</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>344</x>
+      <y>360</y>
+      <w>56</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=-
+usage
+m1=1...*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;240.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>320</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+control
+m1=1...*
+m2=1</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>104</y>
+      <w>1016</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>lt=-
+accessControl
+m1=1
+m2=1...*</panel_attributes>
+    <additional_attributes>1240.0;250.0;1240.0;20.0;10.0;20.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>528</x>
+      <y>552</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>QRCode
+--
+- number: int
+- day: Date</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>360</y>
+      <w>56</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=-
+owning
+m1=1...*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;240.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>360</y>
+      <w>584</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=-
+refering
+m1=1
+m2=1...*</panel_attributes>
+    <additional_attributes>700.0;10.0;700.0;370.0;10.0;370.0;10.0;320.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>792</x>
+      <y>552</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Visit
+--
+- hour: Datetime
+- day: Date
+- expectedDuration: Interval</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>360</y>
+      <w>280</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>lt=-
+refering
+m1=1
+m2=1...*</panel_attributes>
+    <additional_attributes>280.0;10.0;280.0;290.0;10.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>728</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Category
+--
+- name: String
+- type: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>936</x>
+      <y>728</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Items
+--
+- name: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>808</x>
+      <y>752</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;
+partOf
+m1=1...*
+m2=1</panel_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>608</y>
+      <w>144</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;
+partOf
+m1=0...*
+m2=1...*</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;100.0;140.0;100.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>608</y>
+      <w>136</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;
+partOf
+m1=0...*
+m2=1...*</panel_attributes>
+    <additional_attributes>130.0;150.0;130.0;100.0;10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1104</x>
+      <y>360</y>
+      <w>184</w>
+      <h>432</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+sale
+m1=1...*
+m2=1...*</panel_attributes>
+    <additional_attributes>190.0;10.0;190.0;510.0;10.0;510.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>784</x>
+      <y>360</y>
+      <w>536</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+sale
+m1=1...*
+m2=1...*</panel_attributes>
+    <additional_attributes>630.0;10.0;630.0;580.0;10.0;580.0;10.0;540.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>568</y>
+      <w>112</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;
+connection
+m1=0...1
+m2=1</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
