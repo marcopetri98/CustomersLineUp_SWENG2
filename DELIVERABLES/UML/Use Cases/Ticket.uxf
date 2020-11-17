@@ -27,17 +27,6 @@
     <id>UMLActor</id>
     <coordinates>
       <x>930</x>
-      <y>330</y>
-      <w>120</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>Web application</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLActor</id>
-    <coordinates>
-      <x>930</x>
       <y>470</y>
       <w>120</w>
       <h>110</h>
@@ -110,17 +99,6 @@
     </coordinates>
     <panel_attributes>lt=.&gt;&gt;</panel_attributes>
     <additional_attributes>70.0;90.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>610</x>
-      <y>360</y>
-      <w>370</w>
-      <h>160</h>
-    </coordinates>
-    <panel_attributes>                                     &lt;&lt;compute&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;140.0;350.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>

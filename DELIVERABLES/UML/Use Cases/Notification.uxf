@@ -6,7 +6,7 @@
     <coordinates>
       <x>390</x>
       <y>310</y>
-      <w>480</w>
+      <w>440</w>
       <h>230</h>
     </coordinates>
     <panel_attributes>halign=left</panel_attributes>
@@ -21,17 +21,6 @@
       <h>110</h>
     </coordinates>
     <panel_attributes>Customer</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLActor</id>
-    <coordinates>
-      <x>950</x>
-      <y>350</y>
-      <w>60</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>System</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -55,17 +44,6 @@
     </coordinates>
     <panel_attributes>&lt;&lt;receives&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>670</x>
-      <y>370</y>
-      <w>290</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;creates&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>

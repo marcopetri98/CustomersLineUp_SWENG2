@@ -24,17 +24,6 @@
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLActor</id>
-    <coordinates>
-      <x>990</x>
-      <y>400</y>
-      <w>120</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>Web application</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLUseCase</id>
     <coordinates>
       <x>600</x>
@@ -59,19 +48,6 @@
     <additional_attributes>10.0;130.0;280.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>710</x>
-      <y>300</y>
-      <w>330</w>
-      <h>150</h>
-    </coordinates>
-    <panel_attributes>
-
-&lt;&lt;validates&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;310.0;130.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLUseCase</id>
     <coordinates>
       <x>580</x>
@@ -85,25 +61,12 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>440</y>
-      <w>310</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>
-
-&lt;&lt;evaluates&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
       <x>320</x>
       <y>440</y>
       <w>280</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>               &lt;&lt;subject to&gt;&gt;</panel_attributes>
+    <panel_attributes>               &lt;&lt;perform&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
   </element>
   <element>
@@ -201,5 +164,28 @@
 
 &lt;&lt;include&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;130.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>600</x>
+      <y>380</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Validation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>320</y>
+      <w>90</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
