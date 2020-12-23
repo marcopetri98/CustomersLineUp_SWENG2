@@ -297,7 +297,6 @@ fact usedTicketsHaveBeenScanned {
 //1. Join a queue
 pred joinQueue[q:Queue, c:Customer, qt:QueueTicket, t:Time]{
 	//preconditions
-	#q.queueTickets.t > 0
 	//c owns the ticket
 	qt.ticketOwner = c
 	//the ticket is not already in the queue
@@ -429,7 +428,6 @@ pred enterStoreQueue[s:Store, qt:QueueTicket, t:Time]{
 
 //6. Enter a store by booking
 pred enterStoreBooking[s:Store, b:Booking, t:Time]{
-	
 	//preconditions
 	/*is an active booking at the time of entering*/
 	b in s.storeBookings.t
@@ -454,7 +452,7 @@ pred enterStoreBooking[s:Store, b:Booking, t:Time]{
 		chk in s.storeControllers
 	no chk:CheckpointController |
 		b.bookingTicket in chk.controllerCheckIns.(t.next) and
-		hk not in s.storeControllers
+		chk not in s.storeControllers
 	all chk:CheckpointController |
 		chk.controllerCheckOuts.(t.next) = chk.controllerCheckOuts.(t)
 	all chk:CheckpointController |
@@ -656,7 +654,7 @@ assert NoCustomerTwiceSameQueue{
 //This assertion proves that no customer can be twice in different queues
 assert NoTwoQueuesShareCustomer{
 	/*Base Case: the property holds for two empty queues*/
-	all q1,q2:Queue , t:Time |
+	all disj q1,q2:Queue , t:Time |
 		#q1.queueTickets=0 and
 		#q2.queueTickets=0
 			implies
@@ -664,12 +662,12 @@ assert NoTwoQueuesShareCustomer{
 
 	/*Inductive Steps: if we start from two consistent queue sand some
 	customer joins on of the queues or leaves it, the property still holds*/
-	all q1,q2:Queue , t:Time |
+	all disj q1,q2:Queue , t:Time |
 		disjointQueues[q1,q2,t] and
 		(some c:Customer, qt:QueueTicket | joinQueue[q1,c,qt,t])
 			implies
 		disjointQueues[q1,q2,t.next]
-	all q1,q2:Queue , t:Time |
+	all disj q1,q2:Queue , t:Time |
 		disjointQueues[q1,q2,t] and
 		(some c:Customer, qt:QueueTicket | leaveQueue[q1,c,qt,t])
 			implies
