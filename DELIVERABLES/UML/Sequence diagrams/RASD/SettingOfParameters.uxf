@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>14</zoom_level>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>540</x>
-      <y>230</y>
-      <w>120</w>
-      <h>30</h>
+      <x>378</x>
+      <y>322</y>
+      <w>168</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>_:StoreManager_</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>250</y>
-      <w>30</w>
-      <h>60</h>
+      <x>448</x>
+      <y>350</y>
+      <w>42</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>940</x>
-      <y>230</y>
-      <w>120</w>
-      <h>30</h>
+      <x>938</x>
+      <y>322</y>
+      <w>168</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>_:Sysyem_</panel_attributes>
     <additional_attributes/>
@@ -37,21 +37,21 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>990</x>
-      <y>250</y>
-      <w>30</w>
-      <h>60</h>
+      <x>1008</x>
+      <y>350</y>
+      <w>42</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>590</x>
-      <y>290</y>
-      <w>20</w>
-      <h>300</h>
+      <x>448</x>
+      <y>406</y>
+      <w>28</w>
+      <h>476</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -59,10 +59,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>990</x>
-      <y>290</y>
-      <w>20</w>
-      <h>300</h>
+      <x>1008</x>
+      <y>462</y>
+      <w>28</w>
+      <h>420</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -70,10 +70,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>300</y>
-      <w>410</w>
-      <h>40</h>
+      <x>462</x>
+      <y>476</y>
+      <w>574</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 setChanges();</panel_attributes>
@@ -82,10 +82,10 @@ setChanges();</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>440</y>
-      <w>410</w>
-      <h>40</h>
+      <x>462</x>
+      <y>672</y>
+      <w>574</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 success</panel_attributes>
@@ -94,10 +94,10 @@ success</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>330</y>
-      <w>230</w>
-      <h>90</h>
+      <x>1022</x>
+      <y>518</y>
+      <w>322</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 trySaveChanges();</panel_attributes>
@@ -106,10 +106,10 @@ trySaveChanges();</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>580</y>
-      <w>30</w>
-      <h>60</h>
+      <x>448</x>
+      <y>868</y>
+      <w>42</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -117,10 +117,10 @@ trySaveChanges();</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>990</x>
-      <y>580</y>
-      <w>30</w>
-      <h>60</h>
+      <x>1008</x>
+      <y>868</y>
+      <w>42</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -128,10 +128,10 @@ trySaveChanges();</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>450</x>
-      <y>430</y>
-      <w>650</w>
-      <h>120</h>
+      <x>252</x>
+      <y>658</y>
+      <w>910</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>alt
 --
@@ -150,10 +150,10 @@ not valid changes
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>510</y>
-      <w>410</w>
-      <h>40</h>
+      <x>462</x>
+      <y>770</y>
+      <w>574</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 failure</panel_attributes>
@@ -162,13 +162,26 @@ failure</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1000</x>
-      <y>350</y>
-      <w>20</w>
-      <h>70</h>
+      <x>1022</x>
+      <y>546</y>
+      <w>28</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>transparency=0
 layer=1</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>462</x>
+      <y>406</y>
+      <w>210</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+modify
+parameters();</panel_attributes>
+    <additional_attributes>10.0;50.0;50.0;50.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

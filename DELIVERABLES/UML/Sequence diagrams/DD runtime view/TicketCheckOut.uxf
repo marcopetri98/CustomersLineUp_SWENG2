@@ -4,7 +4,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>220</x>
+      <x>260</x>
       <y>90</y>
       <w>120</w>
       <h>30</h>
@@ -15,7 +15,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
+      <x>310</x>
       <y>110</y>
       <w>30</w>
       <h>60</h>
@@ -26,7 +26,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>390</x>
+      <x>430</x>
       <y>90</y>
       <w>120</w>
       <h>30</h>
@@ -37,7 +37,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
+      <x>480</x>
       <y>110</y>
       <w>30</w>
       <h>80</h>
@@ -48,7 +48,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>270</x>
+      <x>310</x>
       <y>150</y>
       <w>20</w>
       <h>710</h>
@@ -59,7 +59,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>440</x>
+      <x>480</x>
       <y>170</y>
       <w>20</w>
       <h>680</h>
@@ -70,7 +70,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
+      <x>320</x>
       <y>170</y>
       <w>180</w>
       <h>40</h>
@@ -82,7 +82,7 @@ checkOutTicket();</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>130</x>
+      <x>170</x>
       <y>210</y>
       <w>910</w>
       <h>590</h>
@@ -115,7 +115,7 @@ ticket for booking
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>560</x>
+      <x>640</x>
       <y>90</y>
       <w>120</w>
       <h>30</h>
@@ -126,7 +126,7 @@ ticket for booking
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
+      <x>690</x>
       <y>110</y>
       <w>30</w>
       <h>110</h>
@@ -137,7 +137,7 @@ ticket for booking
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>610</x>
+      <x>690</x>
       <y>200</y>
       <w>20</w>
       <h>240</h>
@@ -148,7 +148,7 @@ ticket for booking
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>860</x>
+      <x>900</x>
       <y>90</y>
       <w>160</w>
       <h>30</h>
@@ -159,7 +159,7 @@ ticket for booking
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
+      <x>960</x>
       <y>110</y>
       <w>30</w>
       <h>130</h>
@@ -170,7 +170,7 @@ ticket for booking
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>920</x>
+      <x>960</x>
       <y>220</y>
       <w>20</w>
       <h>530</h>
@@ -181,31 +181,31 @@ ticket for booking
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>490</x>
       <y>210</y>
-      <w>180</w>
+      <w>220</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-checkOutTicket();</panel_attributes>
-    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
+canTicketBeCheckedOut();</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
+      <x>700</x>
       <y>220</y>
-      <w>320</w>
+      <w>280</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
                get();</panel_attributes>
-    <additional_attributes>300.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>710</x>
+      <x>770</x>
       <y>90</y>
       <w>120</w>
       <h>30</h>
@@ -216,7 +216,7 @@ checkOutTicket();</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>760</x>
+      <x>820</x>
       <y>110</y>
       <w>30</w>
       <h>440</h>
@@ -227,7 +227,7 @@ checkOutTicket();</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>760</x>
+      <x>820</x>
       <y>530</y>
       <w>20</w>
       <h>250</h>
@@ -238,46 +238,46 @@ checkOutTicket();</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>280</y>
-      <w>320</w>
+      <x>700</x>
+      <y>240</y>
+      <w>280</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-              valid</panel_attributes>
-    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+              ticket</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>320</y>
-      <w>320</w>
+      <x>700</x>
+      <y>330</y>
+      <w>280</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
                done</panel_attributes>
-    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>300</y>
-      <w>320</w>
+      <x>700</x>
+      <y>310</y>
+      <w>280</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
                set();</panel_attributes>
-    <additional_attributes>300.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>160</x>
-      <y>270</y>
+      <x>200</x>
+      <y>280</y>
       <w>810</w>
-      <h>200</h>
+      <h>190</h>
     </coordinates>
     <panel_attributes>alt
 --
@@ -297,106 +297,94 @@ be checked out
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>330</y>
-      <w>180</w>
+      <x>490</x>
+      <y>340</y>
+      <w>220</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 done</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>490</x>
       <y>400</y>
-      <w>180</w>
+      <w>220</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-done</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+error</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>390</y>
-      <w>320</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-                invalid</panel_attributes>
-    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
+      <x>490</x>
       <y>520</y>
-      <w>330</w>
+      <w>350</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-                                   checkOutTicket();</panel_attributes>
-    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+                     canTicketBeCheckedOut();</panel_attributes>
+    <additional_attributes>330.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
+      <x>830</x>
       <y>530</y>
-      <w>170</w>
+      <w>150</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 get();</panel_attributes>
-    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
-      <y>590</y>
-      <w>170</w>
+      <x>830</x>
+      <y>550</y>
+      <w>150</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-valid</panel_attributes>
-    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+ticket</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
-      <y>630</y>
-      <w>170</w>
+      <x>830</x>
+      <y>640</y>
+      <w>150</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 done</panel_attributes>
-    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
-      <y>610</y>
-      <w>170</w>
+      <x>830</x>
+      <y>620</y>
+      <w>150</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 set();</panel_attributes>
-    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>160</x>
-      <y>590</y>
+      <x>200</x>
+      <y>580</y>
       <w>810</w>
-      <h>180</h>
+      <h>190</h>
     </coordinates>
     <panel_attributes>alt
 --
@@ -404,6 +392,7 @@ halign=left
 ticket
 supposed to
 be checked out
+
 
 
 -.
@@ -416,43 +405,31 @@ be checked out
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>640</y>
-      <w>330</w>
+      <x>490</x>
+      <y>650</y>
+      <w>350</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
                    done</panel_attributes>
-    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>490</x>
       <y>710</y>
-      <w>330</w>
+      <w>350</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-                     done</panel_attributes>
-    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+                error</panel_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
-      <y>700</y>
-      <w>170</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-invalid</panel_attributes>
-    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>270</x>
+      <x>310</x>
       <y>850</y>
       <w>30</w>
       <h>80</h>
@@ -463,7 +440,7 @@ invalid</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
+      <x>480</x>
       <y>840</y>
       <w>30</w>
       <h>90</h>
@@ -474,7 +451,7 @@ invalid</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>760</x>
+      <x>820</x>
       <y>770</y>
       <w>30</w>
       <h>150</h>
@@ -485,7 +462,7 @@ invalid</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
+      <x>960</x>
       <y>740</y>
       <w>30</w>
       <h>170</h>
@@ -496,7 +473,7 @@ invalid</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
+      <x>690</x>
       <y>430</y>
       <w>30</w>
       <h>490</h>
@@ -507,13 +484,97 @@ invalid</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>820</y>
+      <x>320</x>
+      <y>720</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-done</panel_attributes>
+error</panel_attributes>
     <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>660</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+success</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>410</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+error</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>350</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+success</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>300</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+checkOutTicket();</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>610</y>
+      <w>350</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+checkOutTicket();</panel_attributes>
+    <additional_attributes>330.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>280</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+valid</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>580</y>
+      <w>350</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+                         valid</panel_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
   </element>
 </diagram>
